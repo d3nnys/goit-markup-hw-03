@@ -288,6 +288,10 @@ img {
 	margin-bottom: 8px;
 }
 
+.team-item .item-container {
+	text-align: center;
+}
+
 .list-title {
 	text-align: center;
 	line-height: 1.2;
@@ -347,10 +351,6 @@ img {
 }
 
 /* footer */
-
-.footer-page .container {
-	padding: 100px 0;
-}
 
 .footer-link {
 	font-family: "Raleway", sans-serif;
