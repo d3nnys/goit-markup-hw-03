@@ -280,12 +280,20 @@ section {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 24px;
-    /* row-gap: 24px;
-    column-gap: 48px; */
+    /* gap: 24px; */
+    row-gap: 48px;
+    column-gap: 24px;
     justify-content: center;
+    max-width: 1138px;
 
-    margin-bottom: 48px;
+    /* margin-bottom: 48px; */
+}
+
+/* .list-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
 }
 
 .list-down {
@@ -293,7 +301,8 @@ section {
     flex-direction: row;
     justify-content: center;
     gap: 24px;
-}
+} */
+
 
 .card-container {
     border-right: 1px solid #E7E9FC;
