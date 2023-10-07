@@ -18,11 +18,11 @@ body {
 }
 
 .container {
-	min-width: 1158px;
-	padding-left: 0;
-	padding-right: 0;
-	margin-left: 0;
-	margin-right: 0;
+	max-width: 1158px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 ul,
@@ -93,7 +93,6 @@ img {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 
-	margin-right: 76px;
 	color: #2e2f42;
 }
 
@@ -111,7 +110,7 @@ img {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 
-	margin-left: 76px;
+	margin-right: 76px;
 
 	color: #4d5ae5;
 }
@@ -131,10 +130,6 @@ img {
 	display: flex;
 	flex-direction: row;
 	gap: 40px;
-}
-
-.header-item {
-	padding: 24px 0;
 }
 
 .header-nav {
@@ -158,9 +153,11 @@ img {
 }
 
 .nav-link {
+	display: block;
 	font-weight: 500;
 	letter-spacing: 0.02em;
 
+	padding: 24px 0;
 	color: #2e2f42;
 }
 
@@ -172,14 +169,13 @@ img {
 /* hero */
 
 .hero-page .container {
-	padding: 188px 0;
-
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
 .hero-page {
+	padding: 188px 0;
 	background-color: #2e2f42;
 }
 
@@ -244,7 +240,6 @@ img {
 }
 
 .about-item {
-	max-width: 264px;
 	width: calc((100% - 72px) / 4);
 }
 
@@ -281,11 +276,8 @@ img {
 	padding: 32px 0;
 }
 
-.team-item .team-list {
-	width: calc((100% - 72px) / 4);
-}
-
 .team-item {
+	width: calc((100% - 72px) / 4);
 	border-radius: 0 0 4px 4px;
 	box-shadow: 0px 4px 6px 0px #2e2f4229;
 
@@ -358,19 +350,7 @@ img {
 
 .footer-page .container {
 	padding: 100px 0;
-	margin-left: 156px;
 }
-
-.footer-page .logo-link {
-	margin: 0 0 16px 0;
-}
-
-/* .footer-container {
-	display: flex;
-	flex-direction: column;
-	max-width: 264px;
-	margin-left: 156px;
-} */
 
 .footer-link {
 	font-family: "Raleway", sans-serif;
@@ -399,6 +379,7 @@ img {
 }
 
 .footer-page {
+	padding: 100px 0;
 	background-color: #2e2f42;
 }
 
