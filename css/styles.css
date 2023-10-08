@@ -25,6 +25,19 @@ body {
 	margin-right: auto;
 }
 
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
 ul,
 li {
 	list-style-type: none;
@@ -231,8 +244,6 @@ img {
 	font-weight: 700;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
-
-	visibility: hidden;
 }
 
 .about-item .item-title {
@@ -379,6 +390,7 @@ img {
 }
 
 .footer-page {
+	width: 67%;
 	padding: 100px 0;
 	background-color: #2e2f42;
 }
